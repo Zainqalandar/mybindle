@@ -10,7 +10,7 @@ export function DonateSection() {
               Your generosity can change lives. Every donation brings hope, support, and a
               brighter future to someone who needs it.
             </p>
-            <a className="primary-button primary-button--light js-reveal" href="#download">
+            <a className="primary-button primary-button--light primary-button--coral-cta js-reveal" href="#download">
               Donate Now
             </a>
           </div>

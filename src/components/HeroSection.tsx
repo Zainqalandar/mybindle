@@ -29,7 +29,7 @@ export function HeroSection() {
             <p className="hero-copy__description js-hero-item">{heroContent.description}</p>
 
             <div className="hero-copy__actions js-hero-item">
-              <a className="primary-button primary-button--light" href="#features">
+              <a className="primary-button primary-button--light primary-button--coral-cta" href="#features">
                 {heroContent.ctaLabel}
               </a>
             </div>

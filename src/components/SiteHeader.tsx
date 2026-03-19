@@ -4,7 +4,12 @@ export function SiteHeader() {
   return (
     <header className="site-header js-header">
       <a className="brand" href="#top">
-        <span className="brand__mark" />
+        <img
+          src="/images/log.png"
+          alt=""
+          className="brand__logo"
+          aria-hidden="true"
+        />
         <span className="brand__name">mybindle</span>
       </a>
 
