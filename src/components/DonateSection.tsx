@@ -16,17 +16,16 @@ export function DonateSection() {
           </div>
 
           <div className="donation-art js-reveal">
-            <div className="donation-art__phone">
-              <div className="donation-art__screen">
-                <div className="donation-art__list-card" />
-                <div className="donation-art__list-card donation-art__list-card--small" />
-              </div>
-            </div>
-
-            <div className="donation-heart">
-              <span className="donation-heart__shape" />
-              <strong>That You!</strong>
-            </div>
+            <img
+              src="/images/small-image.png"
+              alt="Payment methods mobile screen"
+              className="donation-art__image donation-art__image--small"
+            />
+            <img
+              src="/images/big-image.png"
+              alt="Thank you mobile screen"
+              className="donation-art__image donation-art__image--big"
+            />
           </div>
         </div>
       </div>

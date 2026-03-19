@@ -10,6 +10,7 @@ export type Feature = {
 }
 
 export type ConnectionPoint = {
+  icon: string
   title: string
   description: string
 }
@@ -81,14 +82,17 @@ export const features: Feature[] = [
 
 export const connectionPoints: ConnectionPoint[] = [
   {
+    icon: '🎥',
     title: 'Short Videos & Reels',
     description: 'Share engaging, bite-sized content that keeps your audience entertained.',
   },
   {
+    icon: '🔔',
     title: 'Smart Notifications',
     description: 'Stay updated on what matters without the clutter and noise.',
   },
   {
+    icon: '👥',
     title: 'Interest-Based Communities',
     description: 'Join groups and discussions that match your passions and goals.',
   },
