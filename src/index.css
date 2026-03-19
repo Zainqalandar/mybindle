@@ -1212,6 +1212,7 @@ select {
 .features-section {
   position: relative;
   background: #fbfbfb;
+  padding-top: 211px;
 }
 
 .features-section__container {
